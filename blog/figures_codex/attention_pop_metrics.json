@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.4056236147880554,
+    "mean_entropy": 0.7782898000917939,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 28,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.21153058492656887,
+    "best_layer_head_switch_rate": 0.6546184738955824,
+    "worst_layer_head_dominant_fraction": 1.0
+  },
+  "lora": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.4237031936645508,
+    "mean_entropy": 0.6700297356035891,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 28,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.25255301810456965,
+    "best_layer_head_switch_rate": 0.7108433734939759,
+    "worst_layer_head_dominant_fraction": 1.0
+  },
+  "lora_asr": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.3162508010864258,
+    "mean_entropy": 0.6142221123859901,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 28,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.19677776870526686,
+    "best_layer_head_switch_rate": 0.6947791164658634,
+    "worst_layer_head_dominant_fraction": 1.0
+  },
+  "lora_with_lyrics": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.39574095606803894,
+    "mean_entropy": 0.6478488546606288,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 28,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.24286661943524074,
+    "best_layer_head_switch_rate": 0.6907630522088354,
+    "worst_layer_head_dominant_fraction": 1.0
+  },
+  "lora_with_lyrics_asr": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.7243154048919678,
+    "mean_entropy": 0.5248108404515438,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 28,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.22725002281900156,
+    "best_layer_head_switch_rate": 0.7991967871485943,
+    "worst_layer_head_dominant_fraction": 1.0
+  }
+}

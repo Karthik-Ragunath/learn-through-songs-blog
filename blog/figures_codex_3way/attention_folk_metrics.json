@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.42258575558662415,
+    "mean_entropy": 0.7153554178223827,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 29,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.23166076575029923,
+    "best_layer_head_switch_rate": 0.5783132530120482,
+    "worst_layer_head_dominant_fraction": 1.0
+  },
+  "lora": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.49054810404777527,
+    "mean_entropy": 0.7185279319573498,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 29,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.14357791185213142,
+    "best_layer_head_switch_rate": 0.7911646586345381,
+    "worst_layer_head_dominant_fraction": 1.0
+  },
+  "lora_asr": {
+    "extract_timestep": 0.3,
+    "used_shift": 3.0,
+    "mean_lyric_mass": 0.4288879930973053,
+    "mean_entropy": 0.5941266365731933,
+    "argmax_switch_rate": 0.0,
+    "num_lyric_tokens": 29,
+    "num_audio_frames": 250,
+    "best_layer_head_diagonal_score": 0.0850321490165159,
+    "best_layer_head_switch_rate": 0.7831325301204819,
+    "worst_layer_head_dominant_fraction": 1.0
+  }
+}
