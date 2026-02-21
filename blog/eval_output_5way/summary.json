@@ -1,0 +1,37 @@
+{
+  "baseline": {
+    "mean_wer": 0.6103,
+    "mean_cer": 0.5191,
+    "mean_aas_lm": 0.1808,
+    "mean_aas_dit": 0.1182,
+    "n": 30
+  },
+  "lora": {
+    "mean_wer": 0.4651,
+    "mean_cer": 0.3908,
+    "mean_aas_lm": 0.1807,
+    "mean_aas_dit": 0.1498,
+    "n": 30
+  },
+  "lora_asr": {
+    "mean_wer": 0.8921,
+    "mean_cer": 0.7773,
+    "mean_aas_lm": 0.1491,
+    "mean_aas_dit": 0.0595,
+    "n": 30
+  },
+  "lora_with_lyrics": {
+    "mean_wer": 0.4714,
+    "mean_cer": 0.3806,
+    "mean_aas_lm": 0.1966,
+    "mean_aas_dit": 0.1334,
+    "n": 30
+  },
+  "lora_with_lyrics_asr": {
+    "mean_wer": 0.6423,
+    "mean_cer": 0.4752,
+    "mean_aas_lm": 0.1751,
+    "mean_aas_dit": 0.1664,
+    "n": 30
+  }
+}
